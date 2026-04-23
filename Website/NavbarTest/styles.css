@@ -1,0 +1,24 @@
+:root{
+    --leftfr:2;
+    --centerfr:2;
+    --rightfr:2;
+}
+.container{
+    display:grid;
+    grid-template-columns: var(--leftfr) var(--centerfr) var(--rightfr);
+}
+.container div.leftitem{
+    background-color:#c88686;
+    text-align:center;
+}
+
+.container div.centeritem{
+    background-color:#b87b7b;
+    text-align:center;
+}
+
+.container div.rightitem{
+    background-color:#ae7474;
+    text-align:center;
+}
+
